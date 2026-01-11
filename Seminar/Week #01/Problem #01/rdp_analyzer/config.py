@@ -1,0 +1,6 @@
+# My Python version: 3.10.12
+# IDE: VS code
+
+SECURITY_EVENT_IDS = [4624, 4625, 4634, 4672]
+LSM_EVENT_IDS = [21, 22, 23, 24, 25]
+RCM_EVENT_IDS = [1149]

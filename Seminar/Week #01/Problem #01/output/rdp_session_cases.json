@@ -1,0 +1,1541 @@
+{
+  "cases": [
+    {
+      "session_id": "S0001",
+      "identity": {
+        "user": "UNKNOWN",
+        "src_ip": "163.152.10.117",
+        "src_host": null
+      },
+      "time": {
+        "start": "2025-12-02T09:44:54.344587+00:00",
+        "end_A_next1149_or_pad": "2025-12-02T09:54:54.344587+00:00",
+        "end_B_last_disconnect_or_none": null,
+        "duration_A_sec": 600,
+        "duration_B_sec": null
+      },
+      "result": {
+        "success": true,
+        "failure_observed": false,
+        "confidence": "LOW"
+      },
+      "evidence": {
+        "auth_1149_count": 1,
+        "disconnect_count": 0,
+        "reconnect_count": 0,
+        "first_auth_1149": "2025-12-02T09:44:54.344587+00:00",
+        "last_auth_1149": "2025-12-02T09:44:54.344587+00:00",
+        "last_disconnect": null,
+        "last_reconnect": null,
+        "events": [
+          {
+            "timestamp": "2025-12-02T09:44:54.344587+00:00",
+            "source": "RCM",
+            "event_id": 1149,
+            "note": "Auth Success"
+          }
+        ]
+      },
+      "notes": [
+        "Security 4624(LogonType=10) not present in provided dataset; session timeline is inferred primarily from RCM 1149.",
+        "End_A is inferred from next 1149 event timing or a fixed padding after last 1149.",
+        "End_B is inferred from last LSM 24(Disconnect) timing if present."
+      ]
+    },
+    {
+      "session_id": "S0002",
+      "identity": {
+        "user": "UNKNOWN",
+        "src_ip": "163.152.10.117",
+        "src_host": null
+      },
+      "time": {
+        "start": "2025-12-02T16:44:51.083334+00:00",
+        "end_A_next1149_or_pad": "2025-12-02T16:54:51.083334+00:00",
+        "end_B_last_disconnect_or_none": null,
+        "duration_A_sec": 600,
+        "duration_B_sec": null
+      },
+      "result": {
+        "success": true,
+        "failure_observed": false,
+        "confidence": "LOW"
+      },
+      "evidence": {
+        "auth_1149_count": 1,
+        "disconnect_count": 0,
+        "reconnect_count": 0,
+        "first_auth_1149": "2025-12-02T16:44:51.083334+00:00",
+        "last_auth_1149": "2025-12-02T16:44:51.083334+00:00",
+        "last_disconnect": null,
+        "last_reconnect": null,
+        "events": [
+          {
+            "timestamp": "2025-12-02T16:44:51.083334+00:00",
+            "source": "RCM",
+            "event_id": 1149,
+            "note": "Auth Success"
+          }
+        ]
+      },
+      "notes": [
+        "Security 4624(LogonType=10) not present in provided dataset; session timeline is inferred primarily from RCM 1149.",
+        "End_A is inferred from next 1149 event timing or a fixed padding after last 1149.",
+        "End_B is inferred from last LSM 24(Disconnect) timing if present."
+      ]
+    },
+    {
+      "session_id": "S0003",
+      "identity": {
+        "user": "UNKNOWN",
+        "src_ip": "163.152.10.117",
+        "src_host": null
+      },
+      "time": {
+        "start": "2025-12-03T14:35:30.602472+00:00",
+        "end_A_next1149_or_pad": "2025-12-03T14:45:30.602472+00:00",
+        "end_B_last_disconnect_or_none": null,
+        "duration_A_sec": 600,
+        "duration_B_sec": null
+      },
+      "result": {
+        "success": true,
+        "failure_observed": false,
+        "confidence": "LOW"
+      },
+      "evidence": {
+        "auth_1149_count": 1,
+        "disconnect_count": 0,
+        "reconnect_count": 0,
+        "first_auth_1149": "2025-12-03T14:35:30.602472+00:00",
+        "last_auth_1149": "2025-12-03T14:35:30.602472+00:00",
+        "last_disconnect": null,
+        "last_reconnect": null,
+        "events": [
+          {
+            "timestamp": "2025-12-03T14:35:30.602472+00:00",
+            "source": "RCM",
+            "event_id": 1149,
+            "note": "Auth Success"
+          }
+        ]
+      },
+      "notes": [
+        "Security 4624(LogonType=10) not present in provided dataset; session timeline is inferred primarily from RCM 1149.",
+        "End_A is inferred from next 1149 event timing or a fixed padding after last 1149.",
+        "End_B is inferred from last LSM 24(Disconnect) timing if present."
+      ]
+    },
+    {
+      "session_id": "S0004",
+      "identity": {
+        "user": "UNKNOWN",
+        "src_ip": "163.152.10.117",
+        "src_host": null
+      },
+      "time": {
+        "start": "2025-12-04T18:47:48.068659+00:00",
+        "end_A_next1149_or_pad": "2025-12-04T18:57:48.068659+00:00",
+        "end_B_last_disconnect_or_none": null,
+        "duration_A_sec": 600,
+        "duration_B_sec": null
+      },
+      "result": {
+        "success": true,
+        "failure_observed": false,
+        "confidence": "LOW"
+      },
+      "evidence": {
+        "auth_1149_count": 1,
+        "disconnect_count": 0,
+        "reconnect_count": 0,
+        "first_auth_1149": "2025-12-04T18:47:48.068659+00:00",
+        "last_auth_1149": "2025-12-04T18:47:48.068659+00:00",
+        "last_disconnect": null,
+        "last_reconnect": null,
+        "events": [
+          {
+            "timestamp": "2025-12-04T18:47:48.068659+00:00",
+            "source": "RCM",
+            "event_id": 1149,
+            "note": "Auth Success"
+          }
+        ]
+      },
+      "notes": [
+        "Security 4624(LogonType=10) not present in provided dataset; session timeline is inferred primarily from RCM 1149.",
+        "End_A is inferred from next 1149 event timing or a fixed padding after last 1149.",
+        "End_B is inferred from last LSM 24(Disconnect) timing if present."
+      ]
+    },
+    {
+      "session_id": "S0005",
+      "identity": {
+        "user": "UNKNOWN",
+        "src_ip": "163.152.10.117",
+        "src_host": null
+      },
+      "time": {
+        "start": "2025-12-05T04:02:10.297632+00:00",
+        "end_A_next1149_or_pad": "2025-12-05T04:12:10.297632+00:00",
+        "end_B_last_disconnect_or_none": null,
+        "duration_A_sec": 600,
+        "duration_B_sec": null
+      },
+      "result": {
+        "success": true,
+        "failure_observed": false,
+        "confidence": "LOW"
+      },
+      "evidence": {
+        "auth_1149_count": 1,
+        "disconnect_count": 0,
+        "reconnect_count": 0,
+        "first_auth_1149": "2025-12-05T04:02:10.297632+00:00",
+        "last_auth_1149": "2025-12-05T04:02:10.297632+00:00",
+        "last_disconnect": null,
+        "last_reconnect": null,
+        "events": [
+          {
+            "timestamp": "2025-12-05T04:02:10.297632+00:00",
+            "source": "RCM",
+            "event_id": 1149,
+            "note": "Auth Success"
+          }
+        ]
+      },
+      "notes": [
+        "Security 4624(LogonType=10) not present in provided dataset; session timeline is inferred primarily from RCM 1149.",
+        "End_A is inferred from next 1149 event timing or a fixed padding after last 1149.",
+        "End_B is inferred from last LSM 24(Disconnect) timing if present."
+      ]
+    },
+    {
+      "session_id": "S0006",
+      "identity": {
+        "user": "UNKNOWN",
+        "src_ip": "163.152.10.117",
+        "src_host": null
+      },
+      "time": {
+        "start": "2025-12-06T14:28:44.184557+00:00",
+        "end_A_next1149_or_pad": "2025-12-06T14:38:44.184557+00:00",
+        "end_B_last_disconnect_or_none": null,
+        "duration_A_sec": 600,
+        "duration_B_sec": null
+      },
+      "result": {
+        "success": true,
+        "failure_observed": false,
+        "confidence": "LOW"
+      },
+      "evidence": {
+        "auth_1149_count": 1,
+        "disconnect_count": 0,
+        "reconnect_count": 0,
+        "first_auth_1149": "2025-12-06T14:28:44.184557+00:00",
+        "last_auth_1149": "2025-12-06T14:28:44.184557+00:00",
+        "last_disconnect": null,
+        "last_reconnect": null,
+        "events": [
+          {
+            "timestamp": "2025-12-06T14:28:44.184557+00:00",
+            "source": "RCM",
+            "event_id": 1149,
+            "note": "Auth Success"
+          }
+        ]
+      },
+      "notes": [
+        "Security 4624(LogonType=10) not present in provided dataset; session timeline is inferred primarily from RCM 1149.",
+        "End_A is inferred from next 1149 event timing or a fixed padding after last 1149.",
+        "End_B is inferred from last LSM 24(Disconnect) timing if present."
+      ]
+    },
+    {
+      "session_id": "S0007",
+      "identity": {
+        "user": "UNKNOWN",
+        "src_ip": "163.152.10.117",
+        "src_host": null
+      },
+      "time": {
+        "start": "2025-12-07T06:22:59.260815+00:00",
+        "end_A_next1149_or_pad": "2025-12-07T06:32:59.260815+00:00",
+        "end_B_last_disconnect_or_none": null,
+        "duration_A_sec": 600,
+        "duration_B_sec": null
+      },
+      "result": {
+        "success": true,
+        "failure_observed": false,
+        "confidence": "LOW"
+      },
+      "evidence": {
+        "auth_1149_count": 1,
+        "disconnect_count": 0,
+        "reconnect_count": 0,
+        "first_auth_1149": "2025-12-07T06:22:59.260815+00:00",
+        "last_auth_1149": "2025-12-07T06:22:59.260815+00:00",
+        "last_disconnect": null,
+        "last_reconnect": null,
+        "events": [
+          {
+            "timestamp": "2025-12-07T06:22:59.260815+00:00",
+            "source": "RCM",
+            "event_id": 1149,
+            "note": "Auth Success"
+          }
+        ]
+      },
+      "notes": [
+        "Security 4624(LogonType=10) not present in provided dataset; session timeline is inferred primarily from RCM 1149.",
+        "End_A is inferred from next 1149 event timing or a fixed padding after last 1149.",
+        "End_B is inferred from last LSM 24(Disconnect) timing if present."
+      ]
+    },
+    {
+      "session_id": "S0008",
+      "identity": {
+        "user": "UNKNOWN",
+        "src_ip": "163.152.10.117",
+        "src_host": null
+      },
+      "time": {
+        "start": "2025-12-09T18:20:10.263260+00:00",
+        "end_A_next1149_or_pad": "2025-12-09T18:30:10.263260+00:00",
+        "end_B_last_disconnect_or_none": null,
+        "duration_A_sec": 600,
+        "duration_B_sec": null
+      },
+      "result": {
+        "success": true,
+        "failure_observed": false,
+        "confidence": "LOW"
+      },
+      "evidence": {
+        "auth_1149_count": 1,
+        "disconnect_count": 0,
+        "reconnect_count": 0,
+        "first_auth_1149": "2025-12-09T18:20:10.263260+00:00",
+        "last_auth_1149": "2025-12-09T18:20:10.263260+00:00",
+        "last_disconnect": null,
+        "last_reconnect": null,
+        "events": [
+          {
+            "timestamp": "2025-12-09T18:20:10.263260+00:00",
+            "source": "RCM",
+            "event_id": 1149,
+            "note": "Auth Success"
+          }
+        ]
+      },
+      "notes": [
+        "Security 4624(LogonType=10) not present in provided dataset; session timeline is inferred primarily from RCM 1149.",
+        "End_A is inferred from next 1149 event timing or a fixed padding after last 1149.",
+        "End_B is inferred from last LSM 24(Disconnect) timing if present."
+      ]
+    },
+    {
+      "session_id": "S0009",
+      "identity": {
+        "user": "UNKNOWN",
+        "src_ip": "163.152.10.117",
+        "src_host": null
+      },
+      "time": {
+        "start": "2025-12-11T09:52:44.204695+00:00",
+        "end_A_next1149_or_pad": "2025-12-11T10:02:44.204695+00:00",
+        "end_B_last_disconnect_or_none": null,
+        "duration_A_sec": 600,
+        "duration_B_sec": null
+      },
+      "result": {
+        "success": true,
+        "failure_observed": false,
+        "confidence": "LOW"
+      },
+      "evidence": {
+        "auth_1149_count": 1,
+        "disconnect_count": 0,
+        "reconnect_count": 0,
+        "first_auth_1149": "2025-12-11T09:52:44.204695+00:00",
+        "last_auth_1149": "2025-12-11T09:52:44.204695+00:00",
+        "last_disconnect": null,
+        "last_reconnect": null,
+        "events": [
+          {
+            "timestamp": "2025-12-11T09:52:44.204695+00:00",
+            "source": "RCM",
+            "event_id": 1149,
+            "note": "Auth Success"
+          }
+        ]
+      },
+      "notes": [
+        "Security 4624(LogonType=10) not present in provided dataset; session timeline is inferred primarily from RCM 1149.",
+        "End_A is inferred from next 1149 event timing or a fixed padding after last 1149.",
+        "End_B is inferred from last LSM 24(Disconnect) timing if present."
+      ]
+    },
+    {
+      "session_id": "S0010",
+      "identity": {
+        "user": "UNKNOWN",
+        "src_ip": "163.152.10.117",
+        "src_host": null
+      },
+      "time": {
+        "start": "2025-12-11T10:59:22.809139+00:00",
+        "end_A_next1149_or_pad": "2025-12-11T11:09:22.809139+00:00",
+        "end_B_last_disconnect_or_none": null,
+        "duration_A_sec": 600,
+        "duration_B_sec": null
+      },
+      "result": {
+        "success": true,
+        "failure_observed": false,
+        "confidence": "LOW"
+      },
+      "evidence": {
+        "auth_1149_count": 1,
+        "disconnect_count": 0,
+        "reconnect_count": 0,
+        "first_auth_1149": "2025-12-11T10:59:22.809139+00:00",
+        "last_auth_1149": "2025-12-11T10:59:22.809139+00:00",
+        "last_disconnect": null,
+        "last_reconnect": null,
+        "events": [
+          {
+            "timestamp": "2025-12-11T10:59:22.809139+00:00",
+            "source": "RCM",
+            "event_id": 1149,
+            "note": "Auth Success"
+          }
+        ]
+      },
+      "notes": [
+        "Security 4624(LogonType=10) not present in provided dataset; session timeline is inferred primarily from RCM 1149.",
+        "End_A is inferred from next 1149 event timing or a fixed padding after last 1149.",
+        "End_B is inferred from last LSM 24(Disconnect) timing if present."
+      ]
+    },
+    {
+      "session_id": "S0011",
+      "identity": {
+        "user": "UNKNOWN",
+        "src_ip": "163.152.10.117",
+        "src_host": null
+      },
+      "time": {
+        "start": "2025-12-16T15:21:29.743280+00:00",
+        "end_A_next1149_or_pad": "2025-12-16T15:31:29.743280+00:00",
+        "end_B_last_disconnect_or_none": null,
+        "duration_A_sec": 600,
+        "duration_B_sec": null
+      },
+      "result": {
+        "success": true,
+        "failure_observed": false,
+        "confidence": "LOW"
+      },
+      "evidence": {
+        "auth_1149_count": 1,
+        "disconnect_count": 0,
+        "reconnect_count": 0,
+        "first_auth_1149": "2025-12-16T15:21:29.743280+00:00",
+        "last_auth_1149": "2025-12-16T15:21:29.743280+00:00",
+        "last_disconnect": null,
+        "last_reconnect": null,
+        "events": [
+          {
+            "timestamp": "2025-12-16T15:21:29.743280+00:00",
+            "source": "RCM",
+            "event_id": 1149,
+            "note": "Auth Success"
+          }
+        ]
+      },
+      "notes": [
+        "Security 4624(LogonType=10) not present in provided dataset; session timeline is inferred primarily from RCM 1149.",
+        "End_A is inferred from next 1149 event timing or a fixed padding after last 1149.",
+        "End_B is inferred from last LSM 24(Disconnect) timing if present."
+      ]
+    },
+    {
+      "session_id": "S0012",
+      "identity": {
+        "user": "UNKNOWN",
+        "src_ip": "163.152.10.117",
+        "src_host": null
+      },
+      "time": {
+        "start": "2025-12-17T13:39:16.355562+00:00",
+        "end_A_next1149_or_pad": "2025-12-17T13:49:16.355562+00:00",
+        "end_B_last_disconnect_or_none": null,
+        "duration_A_sec": 600,
+        "duration_B_sec": null
+      },
+      "result": {
+        "success": true,
+        "failure_observed": false,
+        "confidence": "LOW"
+      },
+      "evidence": {
+        "auth_1149_count": 1,
+        "disconnect_count": 0,
+        "reconnect_count": 0,
+        "first_auth_1149": "2025-12-17T13:39:16.355562+00:00",
+        "last_auth_1149": "2025-12-17T13:39:16.355562+00:00",
+        "last_disconnect": null,
+        "last_reconnect": null,
+        "events": [
+          {
+            "timestamp": "2025-12-17T13:39:16.355562+00:00",
+            "source": "RCM",
+            "event_id": 1149,
+            "note": "Auth Success"
+          }
+        ]
+      },
+      "notes": [
+        "Security 4624(LogonType=10) not present in provided dataset; session timeline is inferred primarily from RCM 1149.",
+        "End_A is inferred from next 1149 event timing or a fixed padding after last 1149.",
+        "End_B is inferred from last LSM 24(Disconnect) timing if present."
+      ]
+    },
+    {
+      "session_id": "S0013",
+      "identity": {
+        "user": "UNKNOWN",
+        "src_ip": "163.152.10.117",
+        "src_host": null
+      },
+      "time": {
+        "start": "2025-12-19T00:34:33.719290+00:00",
+        "end_A_next1149_or_pad": "2025-12-19T00:44:33.719290+00:00",
+        "end_B_last_disconnect_or_none": null,
+        "duration_A_sec": 600,
+        "duration_B_sec": null
+      },
+      "result": {
+        "success": true,
+        "failure_observed": false,
+        "confidence": "LOW"
+      },
+      "evidence": {
+        "auth_1149_count": 1,
+        "disconnect_count": 0,
+        "reconnect_count": 0,
+        "first_auth_1149": "2025-12-19T00:34:33.719290+00:00",
+        "last_auth_1149": "2025-12-19T00:34:33.719290+00:00",
+        "last_disconnect": null,
+        "last_reconnect": null,
+        "events": [
+          {
+            "timestamp": "2025-12-19T00:34:33.719290+00:00",
+            "source": "RCM",
+            "event_id": 1149,
+            "note": "Auth Success"
+          }
+        ]
+      },
+      "notes": [
+        "Security 4624(LogonType=10) not present in provided dataset; session timeline is inferred primarily from RCM 1149.",
+        "End_A is inferred from next 1149 event timing or a fixed padding after last 1149.",
+        "End_B is inferred from last LSM 24(Disconnect) timing if present."
+      ]
+    },
+    {
+      "session_id": "S0014",
+      "identity": {
+        "user": "UNKNOWN",
+        "src_ip": "163.152.10.117",
+        "src_host": null
+      },
+      "time": {
+        "start": "2025-12-22T12:22:33.332491+00:00",
+        "end_A_next1149_or_pad": "2025-12-22T12:32:33.332491+00:00",
+        "end_B_last_disconnect_or_none": null,
+        "duration_A_sec": 600,
+        "duration_B_sec": null
+      },
+      "result": {
+        "success": true,
+        "failure_observed": false,
+        "confidence": "LOW"
+      },
+      "evidence": {
+        "auth_1149_count": 1,
+        "disconnect_count": 0,
+        "reconnect_count": 0,
+        "first_auth_1149": "2025-12-22T12:22:33.332491+00:00",
+        "last_auth_1149": "2025-12-22T12:22:33.332491+00:00",
+        "last_disconnect": null,
+        "last_reconnect": null,
+        "events": [
+          {
+            "timestamp": "2025-12-22T12:22:33.332491+00:00",
+            "source": "RCM",
+            "event_id": 1149,
+            "note": "Auth Success"
+          }
+        ]
+      },
+      "notes": [
+        "Security 4624(LogonType=10) not present in provided dataset; session timeline is inferred primarily from RCM 1149.",
+        "End_A is inferred from next 1149 event timing or a fixed padding after last 1149.",
+        "End_B is inferred from last LSM 24(Disconnect) timing if present."
+      ]
+    },
+    {
+      "session_id": "S0015",
+      "identity": {
+        "user": "UNKNOWN",
+        "src_ip": "163.152.10.117",
+        "src_host": null
+      },
+      "time": {
+        "start": "2025-12-23T03:02:32.769756+00:00",
+        "end_A_next1149_or_pad": "2025-12-23T03:12:32.769756+00:00",
+        "end_B_last_disconnect_or_none": null,
+        "duration_A_sec": 600,
+        "duration_B_sec": null
+      },
+      "result": {
+        "success": true,
+        "failure_observed": false,
+        "confidence": "LOW"
+      },
+      "evidence": {
+        "auth_1149_count": 1,
+        "disconnect_count": 0,
+        "reconnect_count": 0,
+        "first_auth_1149": "2025-12-23T03:02:32.769756+00:00",
+        "last_auth_1149": "2025-12-23T03:02:32.769756+00:00",
+        "last_disconnect": null,
+        "last_reconnect": null,
+        "events": [
+          {
+            "timestamp": "2025-12-23T03:02:32.769756+00:00",
+            "source": "RCM",
+            "event_id": 1149,
+            "note": "Auth Success"
+          }
+        ]
+      },
+      "notes": [
+        "Security 4624(LogonType=10) not present in provided dataset; session timeline is inferred primarily from RCM 1149.",
+        "End_A is inferred from next 1149 event timing or a fixed padding after last 1149.",
+        "End_B is inferred from last LSM 24(Disconnect) timing if present."
+      ]
+    },
+    {
+      "session_id": "S0016",
+      "identity": {
+        "user": "UNKNOWN",
+        "src_ip": "163.152.10.117",
+        "src_host": null
+      },
+      "time": {
+        "start": "2025-12-24T04:07:42.097574+00:00",
+        "end_A_next1149_or_pad": "2025-12-24T04:17:42.097574+00:00",
+        "end_B_last_disconnect_or_none": null,
+        "duration_A_sec": 600,
+        "duration_B_sec": null
+      },
+      "result": {
+        "success": true,
+        "failure_observed": false,
+        "confidence": "LOW"
+      },
+      "evidence": {
+        "auth_1149_count": 1,
+        "disconnect_count": 0,
+        "reconnect_count": 0,
+        "first_auth_1149": "2025-12-24T04:07:42.097574+00:00",
+        "last_auth_1149": "2025-12-24T04:07:42.097574+00:00",
+        "last_disconnect": null,
+        "last_reconnect": null,
+        "events": [
+          {
+            "timestamp": "2025-12-24T04:07:42.097574+00:00",
+            "source": "RCM",
+            "event_id": 1149,
+            "note": "Auth Success"
+          }
+        ]
+      },
+      "notes": [
+        "Security 4624(LogonType=10) not present in provided dataset; session timeline is inferred primarily from RCM 1149.",
+        "End_A is inferred from next 1149 event timing or a fixed padding after last 1149.",
+        "End_B is inferred from last LSM 24(Disconnect) timing if present."
+      ]
+    },
+    {
+      "session_id": "S0017",
+      "identity": {
+        "user": "UNKNOWN",
+        "src_ip": "163.152.10.117",
+        "src_host": null
+      },
+      "time": {
+        "start": "2025-12-24T06:28:07.510468+00:00",
+        "end_A_next1149_or_pad": "2025-12-24T06:38:07.510468+00:00",
+        "end_B_last_disconnect_or_none": null,
+        "duration_A_sec": 600,
+        "duration_B_sec": null
+      },
+      "result": {
+        "success": true,
+        "failure_observed": false,
+        "confidence": "LOW"
+      },
+      "evidence": {
+        "auth_1149_count": 1,
+        "disconnect_count": 0,
+        "reconnect_count": 0,
+        "first_auth_1149": "2025-12-24T06:28:07.510468+00:00",
+        "last_auth_1149": "2025-12-24T06:28:07.510468+00:00",
+        "last_disconnect": null,
+        "last_reconnect": null,
+        "events": [
+          {
+            "timestamp": "2025-12-24T06:28:07.510468+00:00",
+            "source": "RCM",
+            "event_id": 1149,
+            "note": "Auth Success"
+          }
+        ]
+      },
+      "notes": [
+        "Security 4624(LogonType=10) not present in provided dataset; session timeline is inferred primarily from RCM 1149.",
+        "End_A is inferred from next 1149 event timing or a fixed padding after last 1149.",
+        "End_B is inferred from last LSM 24(Disconnect) timing if present."
+      ]
+    },
+    {
+      "session_id": "S0018",
+      "identity": {
+        "user": "UNKNOWN",
+        "src_ip": "163.152.10.117",
+        "src_host": null
+      },
+      "time": {
+        "start": "2025-12-29T16:10:48.882124+00:00",
+        "end_A_next1149_or_pad": "2025-12-29T16:20:48.882124+00:00",
+        "end_B_last_disconnect_or_none": null,
+        "duration_A_sec": 600,
+        "duration_B_sec": null
+      },
+      "result": {
+        "success": true,
+        "failure_observed": false,
+        "confidence": "LOW"
+      },
+      "evidence": {
+        "auth_1149_count": 1,
+        "disconnect_count": 0,
+        "reconnect_count": 0,
+        "first_auth_1149": "2025-12-29T16:10:48.882124+00:00",
+        "last_auth_1149": "2025-12-29T16:10:48.882124+00:00",
+        "last_disconnect": null,
+        "last_reconnect": null,
+        "events": [
+          {
+            "timestamp": "2025-12-29T16:10:48.882124+00:00",
+            "source": "RCM",
+            "event_id": 1149,
+            "note": "Auth Success"
+          }
+        ]
+      },
+      "notes": [
+        "Security 4624(LogonType=10) not present in provided dataset; session timeline is inferred primarily from RCM 1149.",
+        "End_A is inferred from next 1149 event timing or a fixed padding after last 1149.",
+        "End_B is inferred from last LSM 24(Disconnect) timing if present."
+      ]
+    },
+    {
+      "session_id": "S0019",
+      "identity": {
+        "user": "UNKNOWN",
+        "src_ip": "163.152.10.117",
+        "src_host": null
+      },
+      "time": {
+        "start": "2025-12-29T19:26:25.719997+00:00",
+        "end_A_next1149_or_pad": "2025-12-29T19:36:25.719997+00:00",
+        "end_B_last_disconnect_or_none": null,
+        "duration_A_sec": 600,
+        "duration_B_sec": null
+      },
+      "result": {
+        "success": true,
+        "failure_observed": false,
+        "confidence": "LOW"
+      },
+      "evidence": {
+        "auth_1149_count": 1,
+        "disconnect_count": 0,
+        "reconnect_count": 0,
+        "first_auth_1149": "2025-12-29T19:26:25.719997+00:00",
+        "last_auth_1149": "2025-12-29T19:26:25.719997+00:00",
+        "last_disconnect": null,
+        "last_reconnect": null,
+        "events": [
+          {
+            "timestamp": "2025-12-29T19:26:25.719997+00:00",
+            "source": "RCM",
+            "event_id": 1149,
+            "note": "Auth Success"
+          }
+        ]
+      },
+      "notes": [
+        "Security 4624(LogonType=10) not present in provided dataset; session timeline is inferred primarily from RCM 1149.",
+        "End_A is inferred from next 1149 event timing or a fixed padding after last 1149.",
+        "End_B is inferred from last LSM 24(Disconnect) timing if present."
+      ]
+    },
+    {
+      "session_id": "S0020",
+      "identity": {
+        "user": "UNKNOWN",
+        "src_ip": "163.152.10.117",
+        "src_host": null
+      },
+      "time": {
+        "start": "2025-12-30T04:10:56.963364+00:00",
+        "end_A_next1149_or_pad": "2025-12-30T04:20:56.963364+00:00",
+        "end_B_last_disconnect_or_none": null,
+        "duration_A_sec": 600,
+        "duration_B_sec": null
+      },
+      "result": {
+        "success": true,
+        "failure_observed": false,
+        "confidence": "LOW"
+      },
+      "evidence": {
+        "auth_1149_count": 1,
+        "disconnect_count": 0,
+        "reconnect_count": 0,
+        "first_auth_1149": "2025-12-30T04:10:56.963364+00:00",
+        "last_auth_1149": "2025-12-30T04:10:56.963364+00:00",
+        "last_disconnect": null,
+        "last_reconnect": null,
+        "events": [
+          {
+            "timestamp": "2025-12-30T04:10:56.963364+00:00",
+            "source": "RCM",
+            "event_id": 1149,
+            "note": "Auth Success"
+          }
+        ]
+      },
+      "notes": [
+        "Security 4624(LogonType=10) not present in provided dataset; session timeline is inferred primarily from RCM 1149.",
+        "End_A is inferred from next 1149 event timing or a fixed padding after last 1149.",
+        "End_B is inferred from last LSM 24(Disconnect) timing if present."
+      ]
+    },
+    {
+      "session_id": "S0021",
+      "identity": {
+        "user": "pcj",
+        "src_ip": "163.152.125.134",
+        "src_host": null
+      },
+      "time": {
+        "start": "2025-12-02T06:10:53.780542+00:00",
+        "end_A_next1149_or_pad": "2025-12-02T06:21:02.701029+00:00",
+        "end_B_last_disconnect_or_none": null,
+        "duration_A_sec": 608,
+        "duration_B_sec": null
+      },
+      "result": {
+        "success": true,
+        "failure_observed": false,
+        "confidence": "MEDIUM"
+      },
+      "evidence": {
+        "auth_1149_count": 2,
+        "disconnect_count": 0,
+        "reconnect_count": 0,
+        "first_auth_1149": "2025-12-02T06:10:53.780542+00:00",
+        "last_auth_1149": "2025-12-02T06:11:02.701029+00:00",
+        "last_disconnect": null,
+        "last_reconnect": null,
+        "events": [
+          {
+            "timestamp": "2025-12-02T06:10:53.780542+00:00",
+            "source": "RCM",
+            "event_id": 1149,
+            "note": "Auth Success"
+          },
+          {
+            "timestamp": "2025-12-02T06:11:02.701029+00:00",
+            "source": "RCM",
+            "event_id": 1149,
+            "note": "Auth Success"
+          }
+        ]
+      },
+      "notes": [
+        "Security 4624(LogonType=10) not present in provided dataset; session timeline is inferred primarily from RCM 1149.",
+        "End_A is inferred from next 1149 event timing or a fixed padding after last 1149.",
+        "End_B is inferred from last LSM 24(Disconnect) timing if present."
+      ]
+    },
+    {
+      "session_id": "S0022",
+      "identity": {
+        "user": "pcj",
+        "src_ip": "163.152.125.134",
+        "src_host": null
+      },
+      "time": {
+        "start": "2025-12-03T03:57:01.056261+00:00",
+        "end_A_next1149_or_pad": "2025-12-03T04:08:22.594374+00:00",
+        "end_B_last_disconnect_or_none": null,
+        "duration_A_sec": 681,
+        "duration_B_sec": null
+      },
+      "result": {
+        "success": true,
+        "failure_observed": false,
+        "confidence": "MEDIUM"
+      },
+      "evidence": {
+        "auth_1149_count": 2,
+        "disconnect_count": 0,
+        "reconnect_count": 0,
+        "first_auth_1149": "2025-12-03T03:57:01.056261+00:00",
+        "last_auth_1149": "2025-12-03T03:58:22.594374+00:00",
+        "last_disconnect": null,
+        "last_reconnect": null,
+        "events": [
+          {
+            "timestamp": "2025-12-03T03:57:01.056261+00:00",
+            "source": "RCM",
+            "event_id": 1149,
+            "note": "Auth Success"
+          },
+          {
+            "timestamp": "2025-12-03T03:58:22.594374+00:00",
+            "source": "RCM",
+            "event_id": 1149,
+            "note": "Auth Success"
+          }
+        ]
+      },
+      "notes": [
+        "Security 4624(LogonType=10) not present in provided dataset; session timeline is inferred primarily from RCM 1149.",
+        "End_A is inferred from next 1149 event timing or a fixed padding after last 1149.",
+        "End_B is inferred from last LSM 24(Disconnect) timing if present."
+      ]
+    },
+    {
+      "session_id": "S0023",
+      "identity": {
+        "user": "pcj",
+        "src_ip": "163.152.125.134",
+        "src_host": null
+      },
+      "time": {
+        "start": "2025-12-03T05:59:36.525293+00:00",
+        "end_A_next1149_or_pad": "2025-12-03T06:09:36.525293+00:00",
+        "end_B_last_disconnect_or_none": null,
+        "duration_A_sec": 600,
+        "duration_B_sec": null
+      },
+      "result": {
+        "success": true,
+        "failure_observed": false,
+        "confidence": "MEDIUM"
+      },
+      "evidence": {
+        "auth_1149_count": 1,
+        "disconnect_count": 0,
+        "reconnect_count": 0,
+        "first_auth_1149": "2025-12-03T05:59:36.525293+00:00",
+        "last_auth_1149": "2025-12-03T05:59:36.525293+00:00",
+        "last_disconnect": null,
+        "last_reconnect": null,
+        "events": [
+          {
+            "timestamp": "2025-12-03T05:59:36.525293+00:00",
+            "source": "RCM",
+            "event_id": 1149,
+            "note": "Auth Success"
+          }
+        ]
+      },
+      "notes": [
+        "Security 4624(LogonType=10) not present in provided dataset; session timeline is inferred primarily from RCM 1149.",
+        "End_A is inferred from next 1149 event timing or a fixed padding after last 1149.",
+        "End_B is inferred from last LSM 24(Disconnect) timing if present."
+      ]
+    },
+    {
+      "session_id": "S0024",
+      "identity": {
+        "user": "pcj",
+        "src_ip": "163.152.125.134",
+        "src_host": null
+      },
+      "time": {
+        "start": "2025-12-03T07:34:35.587875+00:00",
+        "end_A_next1149_or_pad": "2025-12-03T07:44:35.587875+00:00",
+        "end_B_last_disconnect_or_none": null,
+        "duration_A_sec": 600,
+        "duration_B_sec": null
+      },
+      "result": {
+        "success": true,
+        "failure_observed": false,
+        "confidence": "MEDIUM"
+      },
+      "evidence": {
+        "auth_1149_count": 1,
+        "disconnect_count": 0,
+        "reconnect_count": 0,
+        "first_auth_1149": "2025-12-03T07:34:35.587875+00:00",
+        "last_auth_1149": "2025-12-03T07:34:35.587875+00:00",
+        "last_disconnect": null,
+        "last_reconnect": null,
+        "events": [
+          {
+            "timestamp": "2025-12-03T07:34:35.587875+00:00",
+            "source": "RCM",
+            "event_id": 1149,
+            "note": "Auth Success"
+          }
+        ]
+      },
+      "notes": [
+        "Security 4624(LogonType=10) not present in provided dataset; session timeline is inferred primarily from RCM 1149.",
+        "End_A is inferred from next 1149 event timing or a fixed padding after last 1149.",
+        "End_B is inferred from last LSM 24(Disconnect) timing if present."
+      ]
+    },
+    {
+      "session_id": "S0025",
+      "identity": {
+        "user": "pcj",
+        "src_ip": "163.152.125.134",
+        "src_host": null
+      },
+      "time": {
+        "start": "2025-12-08T03:51:32.189943+00:00",
+        "end_A_next1149_or_pad": "2025-12-08T04:01:32.189943+00:00",
+        "end_B_last_disconnect_or_none": null,
+        "duration_A_sec": 600,
+        "duration_B_sec": null
+      },
+      "result": {
+        "success": true,
+        "failure_observed": false,
+        "confidence": "MEDIUM"
+      },
+      "evidence": {
+        "auth_1149_count": 1,
+        "disconnect_count": 0,
+        "reconnect_count": 0,
+        "first_auth_1149": "2025-12-08T03:51:32.189943+00:00",
+        "last_auth_1149": "2025-12-08T03:51:32.189943+00:00",
+        "last_disconnect": null,
+        "last_reconnect": null,
+        "events": [
+          {
+            "timestamp": "2025-12-08T03:51:32.189943+00:00",
+            "source": "RCM",
+            "event_id": 1149,
+            "note": "Auth Success"
+          }
+        ]
+      },
+      "notes": [
+        "Security 4624(LogonType=10) not present in provided dataset; session timeline is inferred primarily from RCM 1149.",
+        "End_A is inferred from next 1149 event timing or a fixed padding after last 1149.",
+        "End_B is inferred from last LSM 24(Disconnect) timing if present."
+      ]
+    },
+    {
+      "session_id": "S0026",
+      "identity": {
+        "user": "pcj",
+        "src_ip": "163.152.125.134",
+        "src_host": null
+      },
+      "time": {
+        "start": "2025-12-10T11:14:42.933931+00:00",
+        "end_A_next1149_or_pad": "2025-12-10T11:24:42.933931+00:00",
+        "end_B_last_disconnect_or_none": null,
+        "duration_A_sec": 600,
+        "duration_B_sec": null
+      },
+      "result": {
+        "success": true,
+        "failure_observed": false,
+        "confidence": "MEDIUM"
+      },
+      "evidence": {
+        "auth_1149_count": 1,
+        "disconnect_count": 0,
+        "reconnect_count": 0,
+        "first_auth_1149": "2025-12-10T11:14:42.933931+00:00",
+        "last_auth_1149": "2025-12-10T11:14:42.933931+00:00",
+        "last_disconnect": null,
+        "last_reconnect": null,
+        "events": [
+          {
+            "timestamp": "2025-12-10T11:14:42.933931+00:00",
+            "source": "RCM",
+            "event_id": 1149,
+            "note": "Auth Success"
+          }
+        ]
+      },
+      "notes": [
+        "Security 4624(LogonType=10) not present in provided dataset; session timeline is inferred primarily from RCM 1149.",
+        "End_A is inferred from next 1149 event timing or a fixed padding after last 1149.",
+        "End_B is inferred from last LSM 24(Disconnect) timing if present."
+      ]
+    },
+    {
+      "session_id": "S0027",
+      "identity": {
+        "user": "pcj",
+        "src_ip": "163.152.125.134",
+        "src_host": null
+      },
+      "time": {
+        "start": "2025-12-12T03:16:35.813189+00:00",
+        "end_A_next1149_or_pad": "2025-12-12T03:26:35.813189+00:00",
+        "end_B_last_disconnect_or_none": null,
+        "duration_A_sec": 600,
+        "duration_B_sec": null
+      },
+      "result": {
+        "success": true,
+        "failure_observed": false,
+        "confidence": "MEDIUM"
+      },
+      "evidence": {
+        "auth_1149_count": 1,
+        "disconnect_count": 0,
+        "reconnect_count": 0,
+        "first_auth_1149": "2025-12-12T03:16:35.813189+00:00",
+        "last_auth_1149": "2025-12-12T03:16:35.813189+00:00",
+        "last_disconnect": null,
+        "last_reconnect": null,
+        "events": [
+          {
+            "timestamp": "2025-12-12T03:16:35.813189+00:00",
+            "source": "RCM",
+            "event_id": 1149,
+            "note": "Auth Success"
+          }
+        ]
+      },
+      "notes": [
+        "Security 4624(LogonType=10) not present in provided dataset; session timeline is inferred primarily from RCM 1149.",
+        "End_A is inferred from next 1149 event timing or a fixed padding after last 1149.",
+        "End_B is inferred from last LSM 24(Disconnect) timing if present."
+      ]
+    },
+    {
+      "session_id": "S0028",
+      "identity": {
+        "user": "pcj",
+        "src_ip": "163.152.125.134",
+        "src_host": null
+      },
+      "time": {
+        "start": "2025-12-16T11:12:40.370831+00:00",
+        "end_A_next1149_or_pad": "2025-12-16T11:41:55.458042+00:00",
+        "end_B_last_disconnect_or_none": null,
+        "duration_A_sec": 1755,
+        "duration_B_sec": null
+      },
+      "result": {
+        "success": true,
+        "failure_observed": false,
+        "confidence": "MEDIUM"
+      },
+      "evidence": {
+        "auth_1149_count": 2,
+        "disconnect_count": 0,
+        "reconnect_count": 0,
+        "first_auth_1149": "2025-12-16T11:12:40.370831+00:00",
+        "last_auth_1149": "2025-12-16T11:31:55.458042+00:00",
+        "last_disconnect": null,
+        "last_reconnect": null,
+        "events": [
+          {
+            "timestamp": "2025-12-16T11:12:40.370831+00:00",
+            "source": "RCM",
+            "event_id": 1149,
+            "note": "Auth Success"
+          },
+          {
+            "timestamp": "2025-12-16T11:31:55.458042+00:00",
+            "source": "RCM",
+            "event_id": 1149,
+            "note": "Auth Success"
+          }
+        ]
+      },
+      "notes": [
+        "Security 4624(LogonType=10) not present in provided dataset; session timeline is inferred primarily from RCM 1149.",
+        "End_A is inferred from next 1149 event timing or a fixed padding after last 1149.",
+        "End_B is inferred from last LSM 24(Disconnect) timing if present."
+      ]
+    },
+    {
+      "session_id": "S0029",
+      "identity": {
+        "user": "pcj",
+        "src_ip": "163.152.125.134",
+        "src_host": null
+      },
+      "time": {
+        "start": "2025-12-17T05:30:39.972345+00:00",
+        "end_A_next1149_or_pad": "2025-12-17T05:40:39.972345+00:00",
+        "end_B_last_disconnect_or_none": null,
+        "duration_A_sec": 600,
+        "duration_B_sec": null
+      },
+      "result": {
+        "success": true,
+        "failure_observed": false,
+        "confidence": "MEDIUM"
+      },
+      "evidence": {
+        "auth_1149_count": 1,
+        "disconnect_count": 0,
+        "reconnect_count": 0,
+        "first_auth_1149": "2025-12-17T05:30:39.972345+00:00",
+        "last_auth_1149": "2025-12-17T05:30:39.972345+00:00",
+        "last_disconnect": null,
+        "last_reconnect": null,
+        "events": [
+          {
+            "timestamp": "2025-12-17T05:30:39.972345+00:00",
+            "source": "RCM",
+            "event_id": 1149,
+            "note": "Auth Success"
+          }
+        ]
+      },
+      "notes": [
+        "Security 4624(LogonType=10) not present in provided dataset; session timeline is inferred primarily from RCM 1149.",
+        "End_A is inferred from next 1149 event timing or a fixed padding after last 1149.",
+        "End_B is inferred from last LSM 24(Disconnect) timing if present."
+      ]
+    },
+    {
+      "session_id": "S0030",
+      "identity": {
+        "user": "pcj",
+        "src_ip": "163.152.125.134",
+        "src_host": null
+      },
+      "time": {
+        "start": "2025-12-18T00:53:49.518837+00:00",
+        "end_A_next1149_or_pad": "2025-12-18T01:03:49.518837+00:00",
+        "end_B_last_disconnect_or_none": null,
+        "duration_A_sec": 600,
+        "duration_B_sec": null
+      },
+      "result": {
+        "success": true,
+        "failure_observed": false,
+        "confidence": "MEDIUM"
+      },
+      "evidence": {
+        "auth_1149_count": 1,
+        "disconnect_count": 0,
+        "reconnect_count": 0,
+        "first_auth_1149": "2025-12-18T00:53:49.518837+00:00",
+        "last_auth_1149": "2025-12-18T00:53:49.518837+00:00",
+        "last_disconnect": null,
+        "last_reconnect": null,
+        "events": [
+          {
+            "timestamp": "2025-12-18T00:53:49.518837+00:00",
+            "source": "RCM",
+            "event_id": 1149,
+            "note": "Auth Success"
+          }
+        ]
+      },
+      "notes": [
+        "Security 4624(LogonType=10) not present in provided dataset; session timeline is inferred primarily from RCM 1149.",
+        "End_A is inferred from next 1149 event timing or a fixed padding after last 1149.",
+        "End_B is inferred from last LSM 24(Disconnect) timing if present."
+      ]
+    },
+    {
+      "session_id": "S0031",
+      "identity": {
+        "user": "pcj",
+        "src_ip": "163.152.125.134",
+        "src_host": null
+      },
+      "time": {
+        "start": "2025-12-23T08:35:42.538782+00:00",
+        "end_A_next1149_or_pad": "2025-12-23T08:45:42.538782+00:00",
+        "end_B_last_disconnect_or_none": null,
+        "duration_A_sec": 600,
+        "duration_B_sec": null
+      },
+      "result": {
+        "success": true,
+        "failure_observed": false,
+        "confidence": "MEDIUM"
+      },
+      "evidence": {
+        "auth_1149_count": 1,
+        "disconnect_count": 0,
+        "reconnect_count": 0,
+        "first_auth_1149": "2025-12-23T08:35:42.538782+00:00",
+        "last_auth_1149": "2025-12-23T08:35:42.538782+00:00",
+        "last_disconnect": null,
+        "last_reconnect": null,
+        "events": [
+          {
+            "timestamp": "2025-12-23T08:35:42.538782+00:00",
+            "source": "RCM",
+            "event_id": 1149,
+            "note": "Auth Success"
+          }
+        ]
+      },
+      "notes": [
+        "Security 4624(LogonType=10) not present in provided dataset; session timeline is inferred primarily from RCM 1149.",
+        "End_A is inferred from next 1149 event timing or a fixed padding after last 1149.",
+        "End_B is inferred from last LSM 24(Disconnect) timing if present."
+      ]
+    },
+    {
+      "session_id": "S0032",
+      "identity": {
+        "user": "pcj",
+        "src_ip": "163.152.125.134",
+        "src_host": null
+      },
+      "time": {
+        "start": "2025-12-30T03:21:21.296556+00:00",
+        "end_A_next1149_or_pad": "2025-12-30T03:31:21.296556+00:00",
+        "end_B_last_disconnect_or_none": null,
+        "duration_A_sec": 600,
+        "duration_B_sec": null
+      },
+      "result": {
+        "success": true,
+        "failure_observed": false,
+        "confidence": "MEDIUM"
+      },
+      "evidence": {
+        "auth_1149_count": 1,
+        "disconnect_count": 0,
+        "reconnect_count": 0,
+        "first_auth_1149": "2025-12-30T03:21:21.296556+00:00",
+        "last_auth_1149": "2025-12-30T03:21:21.296556+00:00",
+        "last_disconnect": null,
+        "last_reconnect": null,
+        "events": [
+          {
+            "timestamp": "2025-12-30T03:21:21.296556+00:00",
+            "source": "RCM",
+            "event_id": 1149,
+            "note": "Auth Success"
+          }
+        ]
+      },
+      "notes": [
+        "Security 4624(LogonType=10) not present in provided dataset; session timeline is inferred primarily from RCM 1149.",
+        "End_A is inferred from next 1149 event timing or a fixed padding after last 1149.",
+        "End_B is inferred from last LSM 24(Disconnect) timing if present."
+      ]
+    },
+    {
+      "session_id": "S0033",
+      "identity": {
+        "user": "pcj",
+        "src_ip": "163.152.125.134",
+        "src_host": null
+      },
+      "time": {
+        "start": "2025-12-30T05:41:59.459192+00:00",
+        "end_A_next1149_or_pad": "2025-12-30T05:51:59.459192+00:00",
+        "end_B_last_disconnect_or_none": null,
+        "duration_A_sec": 600,
+        "duration_B_sec": null
+      },
+      "result": {
+        "success": true,
+        "failure_observed": false,
+        "confidence": "MEDIUM"
+      },
+      "evidence": {
+        "auth_1149_count": 1,
+        "disconnect_count": 0,
+        "reconnect_count": 0,
+        "first_auth_1149": "2025-12-30T05:41:59.459192+00:00",
+        "last_auth_1149": "2025-12-30T05:41:59.459192+00:00",
+        "last_disconnect": null,
+        "last_reconnect": null,
+        "events": [
+          {
+            "timestamp": "2025-12-30T05:41:59.459192+00:00",
+            "source": "RCM",
+            "event_id": 1149,
+            "note": "Auth Success"
+          }
+        ]
+      },
+      "notes": [
+        "Security 4624(LogonType=10) not present in provided dataset; session timeline is inferred primarily from RCM 1149.",
+        "End_A is inferred from next 1149 event timing or a fixed padding after last 1149.",
+        "End_B is inferred from last LSM 24(Disconnect) timing if present."
+      ]
+    },
+    {
+      "session_id": "S0034",
+      "identity": {
+        "user": "pcj",
+        "src_ip": "163.152.125.134",
+        "src_host": null
+      },
+      "time": {
+        "start": "2025-12-30T11:25:45.617823+00:00",
+        "end_A_next1149_or_pad": "2025-12-30T11:35:45.617823+00:00",
+        "end_B_last_disconnect_or_none": null,
+        "duration_A_sec": 600,
+        "duration_B_sec": null
+      },
+      "result": {
+        "success": true,
+        "failure_observed": false,
+        "confidence": "MEDIUM"
+      },
+      "evidence": {
+        "auth_1149_count": 1,
+        "disconnect_count": 0,
+        "reconnect_count": 0,
+        "first_auth_1149": "2025-12-30T11:25:45.617823+00:00",
+        "last_auth_1149": "2025-12-30T11:25:45.617823+00:00",
+        "last_disconnect": null,
+        "last_reconnect": null,
+        "events": [
+          {
+            "timestamp": "2025-12-30T11:25:45.617823+00:00",
+            "source": "RCM",
+            "event_id": 1149,
+            "note": "Auth Success"
+          }
+        ]
+      },
+      "notes": [
+        "Security 4624(LogonType=10) not present in provided dataset; session timeline is inferred primarily from RCM 1149.",
+        "End_A is inferred from next 1149 event timing or a fixed padding after last 1149.",
+        "End_B is inferred from last LSM 24(Disconnect) timing if present."
+      ]
+    },
+    {
+      "session_id": "S0035",
+      "identity": {
+        "user": "pcj",
+        "src_ip": "163.152.125.134",
+        "src_host": null
+      },
+      "time": {
+        "start": "2025-12-31T04:10:28.112221+00:00",
+        "end_A_next1149_or_pad": "2025-12-31T04:20:28.112221+00:00",
+        "end_B_last_disconnect_or_none": null,
+        "duration_A_sec": 600,
+        "duration_B_sec": null
+      },
+      "result": {
+        "success": true,
+        "failure_observed": false,
+        "confidence": "MEDIUM"
+      },
+      "evidence": {
+        "auth_1149_count": 1,
+        "disconnect_count": 0,
+        "reconnect_count": 0,
+        "first_auth_1149": "2025-12-31T04:10:28.112221+00:00",
+        "last_auth_1149": "2025-12-31T04:10:28.112221+00:00",
+        "last_disconnect": null,
+        "last_reconnect": null,
+        "events": [
+          {
+            "timestamp": "2025-12-31T04:10:28.112221+00:00",
+            "source": "RCM",
+            "event_id": 1149,
+            "note": "Auth Success"
+          }
+        ]
+      },
+      "notes": [
+        "Security 4624(LogonType=10) not present in provided dataset; session timeline is inferred primarily from RCM 1149.",
+        "End_A is inferred from next 1149 event timing or a fixed padding after last 1149.",
+        "End_B is inferred from last LSM 24(Disconnect) timing if present."
+      ]
+    },
+    {
+      "session_id": "S0036",
+      "identity": {
+        "user": "pcj",
+        "src_ip": "163.152.71.74",
+        "src_host": null
+      },
+      "time": {
+        "start": "2025-12-03T00:38:38.022482+00:00",
+        "end_A_next1149_or_pad": "2025-12-03T00:48:38.022482+00:00",
+        "end_B_last_disconnect_or_none": null,
+        "duration_A_sec": 600,
+        "duration_B_sec": null
+      },
+      "result": {
+        "success": true,
+        "failure_observed": false,
+        "confidence": "MEDIUM"
+      },
+      "evidence": {
+        "auth_1149_count": 1,
+        "disconnect_count": 0,
+        "reconnect_count": 0,
+        "first_auth_1149": "2025-12-03T00:38:38.022482+00:00",
+        "last_auth_1149": "2025-12-03T00:38:38.022482+00:00",
+        "last_disconnect": null,
+        "last_reconnect": null,
+        "events": [
+          {
+            "timestamp": "2025-12-03T00:38:38.022482+00:00",
+            "source": "RCM",
+            "event_id": 1149,
+            "note": "Auth Success"
+          }
+        ]
+      },
+      "notes": [
+        "Security 4624(LogonType=10) not present in provided dataset; session timeline is inferred primarily from RCM 1149.",
+        "End_A is inferred from next 1149 event timing or a fixed padding after last 1149.",
+        "End_B is inferred from last LSM 24(Disconnect) timing if present."
+      ]
+    }
+  ],
+  "failures_summary": {
+    "observed_failures": 4,
+    "top_failure_ips": {
+      "UNKNOWN_IP": 2,
+      "163.152.125.134": 2
+    }
+  }
+}
