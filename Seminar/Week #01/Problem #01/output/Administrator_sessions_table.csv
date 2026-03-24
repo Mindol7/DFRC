@@ -1,0 +1,2 @@
+﻿session_id,user,src_ip,auth_count_1149,start,end_A_next1149_or_pad,end_B_last_disconnect_or_none,duration_A_sec,duration_B_sec,disconnect_count,reconnect_count,confidence
+S0001,Administrator,192.168.220.136,1,2026-01-15T09:37:35.697647+00:00,2026-01-15T09:47:35.697647+00:00,,600,,0,0,MEDIUM
